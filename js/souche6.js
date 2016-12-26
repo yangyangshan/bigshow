@@ -4,15 +4,15 @@ var end=[
 		options:[
 			{
 				name:"城市大全",
-				href:"file:///C:/Users/Administrator.MICROSO-85M8526/Desktop/js/dasouche/souche10.html"
+				href:"souche10.html"
 			},
 			{
 				name:"品牌大全",
-				href:"file:///C:/Users/Administrator.MICROSO-85M8526/Desktop/js/dasouche/souche6.html"
+				href:"souche6.html"
 			},
 			{
 				name:"车系大全",
-				href:"file:///C:/Users/Administrator.MICROSO-85M8526/Desktop/js/dasouche/souche10.html"
+				href:"souche10.html"
 			}
 		]
 	},
@@ -21,15 +21,15 @@ var end=[
 		options:[
 			{
 				name:"如何挑选二手车",
-				href:"file:///C:/Users/Administrator.MICROSO-85M8526/Desktop/js/dasouche/souche9.html"
+				href:"souche9.html"
 			},
 			{
 				name:"如何判断事故火烧水浸车",
-				href:"file:///C:/Users/Administrator.MICROSO-85M8526/Desktop/js/dasouche/souche7.html"
+				href:"souche7.html"
 			},
 			{
 				name:"二手车指标说明",
-				href:"file:///C:/Users/Administrator.MICROSO-85M8526/Desktop/js/dasouche/souche8.html"
+				href:"souche8.html"
 			}
 		]
 	},
