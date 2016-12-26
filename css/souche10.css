@@ -77,44 +77,77 @@ em, i{
 	margin:0 auto;
 }
 .main h1{
-	font-size:22px;
-	font-weight: bold;
 	padding-top: 20px;
-	padding-bottom: 30px;
-}	
-.main ul li .title{
-	width: 50px;
-	height: 30px;
-	border:1px solid rgb(153,153,153);
-	text-align: center;
-	float: left;
-}
-.main ul li .title span{
 	font-size: 20px;
 	font-weight: bold;
+}
+.main  ul li{
+	margin-top: 34px;
+}
+.main a.big-word{
+	display: block;
+	width: 50px;
+	height: 30px;
+	border: 1px solid rgb(111,111,111);
+	font-size: 18px;
 	line-height: 30px;
+	text-align: center;
 	color: rgb(102,102,102);
+	font-weight: bold;
+	float: left;
 }
-.main ul li{
-	height: 60px;
-}
-.main ul li p{
-	width: 988px;
+.main-right{
 	float: left;
 	padding-left: 30px;
+	padding-top: 6px;
+	width: 1000px;
 }
-.main ul li p a{
+.main-right .online1 span,.main-right .online span{
+	font-weight: bold;
+	font-size: 16px;
 	color: rgb(102,102,102);
-	padding-right: 16px;
-	line-height: 30px;
+	padding-right: 14px;
+}
+.main-right .online,.main-right .online1{
+	width: 1000px;
+}
+.main-right a{
 	font-size: 14px;
-	cursor: pointer;
+	color: rgb(111,111,111);
+	margin-left: 16px;
 }
-.main ul li p a:hover{
-	color: rgb(255,85,23);
+.main-right .online1{
+	padding-top: 22px;
 }
-.main ul li.B{
-	padding-bottom: 20px;
+.main-right .online2 span{
+	font-weight: bold;
+	font-size: 16px;
+	color: rgb(102,102,102);
+	padding-right: 14px;
+	display: block;
+	padding-top: 24px;
+	padding-bottom: 6px;
+}
+.main-right .online2 a{
+	font-size: 14px;
+	color: rgb(111,111,111);
+	margin-left: 0px;
+	margin-right: 16px;
+	line-height: 30px;
+}
+.main-right .online3 span{
+	display: block;
+	font-size: 16px;
+	color: rgb(102,102,102);
+	padding-bottom: 6px;
+	font-weight: bold;
+}
+.main-right .online3 a{
+	font-size: 14px;
+	color: rgb(111,111,111);
+	margin-left: 0px;
+	margin-right: 16px;
+	line-height: 30px;
 }
 .fixedNav{
 	position:fixed;
@@ -181,7 +214,7 @@ em, i{
 	cursor: pointer;
 }
 .top-scroll span{color: white;font-size: 12px;line-height: 24px;}
-.bottomNav{height: 400px;background: rgb(31,31,31);margin-top: 10px;}
+.bottomNav{height: 400px;background: rgb(31,31,31);margin-top: 30px;}
 .bottomNa1{width: 1180px;margin:0 auto;}
 .bottomNav h1{color: rgb(113,113,113);font-size: 12px;display: block;float: left;}
 .endtop span{color: white;float: left;font-size: 14px;font-weight:bold;}
