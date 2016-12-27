@@ -1,5 +1,6 @@
 body{
 	padding-top:80px;font-family: "微软雅黑";
+	min-width: 1200px;
 }
 /*基础样式*/
 .w1200{
