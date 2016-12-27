@@ -4,15 +4,15 @@ var end=[
 		options:[
 			{
 				name:"城市大全",
-				href:"../souche10.html"
+				href:"./carsshow5.html"
 			},
 			{
 				name:"品牌大全",
-				href:"../souche6.html"
+				href:"./carsshow6.html"
 			},
 			{
 				name:"车系大全",
-				href:"../souche10.html"
+				href:"./carsshow10.html"
 			}
 		]
 	},
@@ -21,15 +21,15 @@ var end=[
 		options:[
 			{
 				name:"如何挑选二手车",
-				href:"../souche9.html"
+				href:"./carsshow9.html"
 			},
 			{
 				name:"如何判断事故火烧水浸车",
-				href:"../souche7.html"
+				href:"./carsshow7.html"
 			},
 			{
 				name:"二手车指标说明",
-				href:"../souche8.html"
+				href:"./carsshow8.html"
 			}
 		]
 	},
@@ -37,19 +37,19 @@ var end=[
 			title:"关于我们",
 			options:[
 				{
-					name:"大搜车理念",
+					name:"帅帅车理念",
 					href:"http://www.souche.com/"
 				},
 				{
-					name:"牛车",
+					name:"洋车",
 					href:"http://www.souche.com/"
 				},
 				{
-					name:"大风车",
+					name:"大帅车",
 					href:"http://www.souche.com/"
 				},
 				{
-					name:"大搜车手机版",
+					name:"帅帅车手机版",
 					href:"http://www.souche.com/"
 				}
 			]
@@ -73,8 +73,10 @@ function createend(title,option){
 			var ul=document.createElement("ul");
 			option.forEach(function(option){
 			var li=document.createElement("li");
-				li.innerText=option.name;
-				li.href=option.href;
+			var brown=document.createElement("a");
+				brown.innerText=option.name;
+				brown.href=option.href;
+				li.appendChild(brown);
 				ul.appendChild(li);
 		});
 		return ul;
@@ -113,152 +115,152 @@ ender(end);
 
 var endmid=[
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:""
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 		{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 		{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 		{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 		{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 		{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:""
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	},
 	{
-		title:"大搜车",
+		title:"帅帅车理念",
 		name:"哈哈",
 		href:"#"
 	}
