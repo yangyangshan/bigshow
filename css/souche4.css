@@ -34,22 +34,68 @@ em, i{
 	75px 12px;float: left;border:1px solid #CCC;margin-top:25px;margin-left: 10px;
 	position:relative;}
 .navadd:hover .navaddress{display: block;}
-.navaddress{position: absolute;left:0px;top:32px;width: 360px;height: 326px;border:
-	1px solid #ff5517;background: white;display: none;z-index: 99}
-.navadd-hover{width: 322px;height: 42px;border-bottom: 1px solid #CCC;margin-left: 20px;
-	margin-top: 26px;margin-bottom: 20px;}
-.navadd-hover span{font-size: 14px;color: grey;margin-right: 10px; }
-.navadd-hover a{font-size: 14px;color: #ff5517;margin-left: 15px;}
-.navadd-hover1{width: 322px;height: 28px;margin-left: 20px;float: left;}
-.navadd-hover1 span{font-size: 14px;float: left;line-height: 28px;padding-right: 15px;
-	border-right: 1px solid #CCC;}
-.navadd-hover1 a{margin-left: 14px;line-height: 28px;font-size: 14px;cursor: pointer;}
-.navadd-hover2{width: 322px;margin-left: 20px;float: left;}
-.navadd-hover2 span{font-size: 14px;float: left;line-height: 28px;padding-right: 15px;
-	border-right: 1px solid #CCC;}
-.navadd-hover2 a{margin-left: 14px;line-height: 28px;font-size: 14px;cursor: pointer;}
-.navadd-hover1 a:hover{color: #ff5517;}
-.navadd-hover2 a:hover{color: #ff5517;}
+.navaddress{position: absolute;left:0px;top:32px;width: 360px;height: 326px;display: none;z-index: 99}
+.navadd h4{
+	color: rgb(111,111,111);
+	line-height: 30px;
+	padding-left: 22px;
+}
+.navhot1{
+	padding-bottom: 36px;
+	border-bottom: 1px solid #CCC;
+}
+.navhot1 h5{
+	float: left;
+	color: rgb(111,111,111);
+}
+.navhot1 a{
+	float: left;
+	padding-right: 12px;
+	font-size: 14px;
+	color: rgb(255,85,23);
+}
+.navhot1 p{
+	float: left;
+	padding-left: 24px;
+}
+.navadd:hover .navaddress{display: block;}
+.navaddress{position: absolute;left:0px;top:20px;width: 360px;
+	padding-top: 14px;
+	height: 324px;
+	display: none;
+	z-index: 99}
+.navhover{
+	background: white;
+	width: 308px;
+	height: 270px;
+	padding: 26px 20px;
+	border:1px solid #ff5517;
+}
+.navaddress ul{
+	padding-top: 20px;
+}
+.navaddress ul li p{
+	float: left;
+	width: 260px;
+}
+.navaddress ul h5{
+	float: left;
+	width: 42px;
+	height: 28px;
+	border-right: 1px solid #CCC;
+	line-height: 28px;
+	color: rgb(111,111,111);
+}
+.navaddress ul a{
+	float: left;
+	padding-left: 12px;
+	font-size: 14px;
+	color: black;
+	line-height: 30px;
+}
+.navaddress ul a:hover{
+	color: rgb(255,85,23);
+}
 .navmid{float: left;margin-left: 20px;float: left;}
 .navmid a{padding:0 17px;font-size: 14px;line-height: 80px;float: left;}
 .navmid a:hover{color: #ff5517;cursor: pointer;}

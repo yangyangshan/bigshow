@@ -38,16 +38,61 @@ em, i{
 	line-height: 30px;
 	padding-left: 22px;
 }
+.navhot1{
+	padding-bottom: 36px;
+	border-bottom: 1px solid #CCC;
+}
+.navhot1 h5{
+	float: left;
+	color: rgb(111,111,111);
+}
+.navhot1 a{
+	float: left;
+	padding-right: 12px;
+	font-size: 14px;
+	color: rgb(255,85,23);
+}
+.navhot1 p{
+	float: left;
+	padding-left: 24px;
+}
 .navadd:hover .navaddress{display: block;}
 .navaddress{position: absolute;left:0px;top:20px;width: 360px;
 	padding-top: 14px;
 	height: 324px;
-	display: none;z-index: 99}
+	display: none;
+	z-index: 99}
 .navhover{
 	background: white;
-	width: 360px;
-	height: 310px;
+	width: 308px;
+	height: 270px;
+	padding: 26px 20px;
 	border:1px solid #ff5517;
+}
+.navaddress ul{
+	padding-top: 20px;
+}
+.navaddress ul li p{
+	float: left;
+	width: 260px;
+}
+.navaddress ul h5{
+	float: left;
+	width: 42px;
+	height: 28px;
+	border-right: 1px solid #CCC;
+	line-height: 28px;
+	color: rgb(111,111,111);
+}
+.navaddress ul a{
+	float: left;
+	padding-left: 12px;
+	font-size: 14px;
+	color: black;
+	line-height: 30px;
+}
+.navaddress ul a:hover{
+	color: rgb(255,85,23);
 }
 .navmid{float: left;margin-left: 20px;float: left;}
 .navmid a{padding:0 17px;font-size: 14px;line-height: 80px;float: left;}
@@ -189,21 +234,21 @@ cursor: pointer;margin: 0 auto;margin-top: 100px;text-align: center;}
 .midlogo a{font-size: 12px;color: black;padding-top: 32px;padding-left: 6px;}
 .midlogo a:hover{color: rgb(225,88,26);}
 .lefthover{width: 636px;height: 774px;position: absolute;z-index: 5;
-	left: 0px;top: 124px;display: none;border:2px solid rgb(225,88,26);background: cyan;}
+	left: 0px;top: 124px;display: none;border:2px solid rgb(225,88,26);background: transparent;}
 .leftcurrent{width: 636px;height: 774px;position: absolute;z-index: 5;
-	left: 0px;top: 124px;display: block;border:2px solid rgb(225,88,26);background: cyan;}
-.midleft:hover{border: 2px solid rgb(225,88,26);}
+	left: 0px;top: 124px;display: block;border:2px solid transparent;background: transparent;}
+.midleft:hover{border: 2px solid transparent;}
 .midmid h2{font-size: 16px;font-weight: bold;padding-left: 26px;}
 .midmid a{font-size: 12px;color: black;padding-top: 32px;padding-left: 6px;text-align: center;
 	float: left;width: 48px;height: 60px;background: cyan;float: left;cursor: pointer;}
 .chexing{padding-left: 16px;margin-top: 14px;}
 .midright h2{font-size: 16px;font-weight: bold;padding-left: 16px;}
 .midhover{width: 420px;height: 258px;position: absolute;display: none;background: white;
-	left: 464px;top: 125px;border:2px solid rgb(225,88,26);background: cyan;}
+	left: 464px;top: 125px;border:2px solid transparent;background: transparent;}
 .chexing a:hover{color: rgb(225,88,26);}
 .midcurrent{width: 420px;height: 258px;position: absolute;display: block;
-	left: 464px;top: 125px;border:2px solid rgb(225,88,26);background: white;}
-.midmid:hover{border: 2px solid rgb(225,88,26);}
+	left: 464px;top: 125px;border:2px solid transparent;background: transparent;}
+.midmid:hover{border: 2px solid transparent;}
 .midright a{font-size: 12px;padding-left: 26px;padding-top: 16px;float: left;color: grey;}
 .midright a:hover{color: rgb(225,88,26);}
 .main{height: 1120px;width: 100%;background: rgb(242,242,242);text-align: center;}

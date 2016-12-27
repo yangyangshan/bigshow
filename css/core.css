@@ -1,5 +1,5 @@
 body{
-	padding-top:80px;font-family: "微软雅黑";
+	font-family: "微软雅黑";
 	min-width: 1200px;
 }
 /*基础样式*/
@@ -20,133 +20,103 @@ body{
 	background-image:url(../image/icon2.png);
 }
 /*顶部导航*/
-.topNav{
-	top:0;
-	padding:20px 0;
-	width:100%;
-	height:36px;
-	background-color:white;
-	border-top:4px solid rgb(48,222,246);
+.top{
+	height: 75px;border-top: 3px solid rgb(48,222,246);border-bottom: 1px solid rgb(48,222,246);
 }
-.logo{
-	float:left;
-	margin:0 18px 0 6px;
-	width:82px;
-	height:36px;
-	background-image:url(./image/logo2.png);
+.nav{
+	width: 1190px;margin:0 auto;
 }
-.area{
-	float:left;
-	margin:3px 50px 3px 0;
-	width:86px;
-	height:28px;
-	border:1px solid rgb(48,222,246);
-	border-radius:2px;
-	background: url(./image/2016-11-28_141146.png) no-repeat 68px 10px;
-	position: relative;
+.navleft{
+	display: block;width: 90px;float: left;padding-top:18px;
 }
-.area span{
-	display:block;
-	padding-left:23px;
-	height:28px;
-	line-height:28px;
-	font-size:14px;
-	color:rgb(102, 102, 102);
-	cursor:pointer;
+.navleft span{font-size: 26px;color: rgb(48,222,246);display: block;}
+.navadd{width: 88px;height: 30px;background: url(./image/2016-11-28_141146.png) no-repeat
+	75px 12px;float: left;border:1px solid #CCC;margin-top:25px;margin-left: 10px;
+	position:relative;}
+.navadd:hover .navaddress{display: block;}
+.navadd h4{
+	color: rgb(111,111,111);
+	line-height: 30px;
+	padding-left: 22px;
 }
-.area .fixedBox{
-	position: absolute;left: 0px;top:30px;
-	border:1px solid rgb(255, 88, 26);
-	width: 360px;height: 326px;
-	background: white;z-index: 5;
-	display: none;
-
+.navhot1{
+	padding-bottom: 36px;
+	border-bottom: 1px solid #CCC;
 }
-.area:hover .fixedBox{display: block;}
-.navadd-hover{width: 322px;height: 42px;border-bottom: 1px solid #CCC;margin-left: 20px;
-	margin-top: 26px;margin-bottom: 20px;background: white;}
-.navadd-hover span{font-size: 14px;color: grey;margin-right: 10px; float: left;}
-.fixedBox .navadd-hover a{font-size: 14px;color: rgb(255, 85, 23);;margin-left: 15px;float: left;padding-top: 8px;}
-.navadd-hover1{width: 322px;height: 28px;margin-left: 20px;float: left;}
-.navadd-hover1 span{font-size: 14px;float: left;line-height: 28px;padding-right: 15px;
-	border-right: 1px solid #CCC;}
-.navadd-hover1 a{margin-left: 14px;line-height: 28px;font-size: 14px;cursor: pointer;}
-.navadd-hover2{width: 322px;margin-left: 20px;float: left;}
-.navadd-hover2 span{font-size: 14px;float: left;line-height: 28px;padding-right: 15px;
-	border-right: 1px solid #CCC;}
-.navadd-hover2 a{margin-left: 14px;line-height: 28px;font-size: 14px;cursor: pointer;}
-.navadd-hover1 a:hover{color: #ff5517;}
-.navadd-hover2 a:hover{color: #ff5517;}
-.topNav a{
-	color:rgb(51, 51, 51);
+.navhot1 h5{
+	float: left;
+	color: rgb(111,111,111);
 }
-.topNav .anchor{
-	float:left;
-	margin-right:34px;
-	font-size:14px;
-	line-height:36px;
-	vertical-align:middle;
-}
-.topNav .anchor2{
-	float:left;
-	margin-right:34px;
-	font-size:14px;
-	line-height:36px;
-	vertical-align:middle;
+.navhot1 a{
+	float: left;
+	padding-right: 12px;
+	font-size: 14px;
 	color: rgb(255,85,23);
 }
-.topNav div.anchor {position: relative;}
-.anchor-hover{
-	position: absolute;left: -14px;top:-6px;z-index: 5;background: white;box-shadow: 0px 0px 4px 2px #CCC;
-	width: 82px;height: 116px;border: 2px solid rgb(48,222,246);;text-align: center;
+.navhot1 p{
+	float: left;
+	padding-left: 24px;
+}
+.navadd:hover .navaddress{display: block;}
+.navaddress{position: absolute;left:0px;top:20px;width: 360px;
+	padding-top: 14px;
+	height: 324px;
 	display: none;
+	z-index: 99}
+.navhover{
+	background: white;
+	width: 308px;
+	height: 270px;
+	padding: 26px 20px;
+	border:1px solid #ff5517;
 }
-.topNav div.anchor:hover .anchor-hover{display: block;}
-.anchor-hover span{line-height: 44px;display: block;}
-.anchor-hover a{display: block;padding-top: 14px;cursor:pointer;
+.navaddress ul{
+	padding-top: 20px;
 }
-.topNav a.anchor:hover, .topNav .sign:hover{
-	color:rgb(255, 88, 26);
+.navaddress ul li p{
+	float: left;
+	width: 260px;
 }
-.topNav div.anchor{
-	display:inline;
+.navaddress ul h5{
+	float: left;
+	width: 42px;
+	height: 28px;
+	border-right: 1px solid #CCC;
+	line-height: 28px;
+	color: rgb(111,111,111);
 }
-.topNav input{
-	float:left;
-	margin-right:65px;
-	padding:0 8px;
-	width:200px;
-	height:28px;
-	border:2px solid rgb(230, 230, 230);
-	line-height:28px;
-	outline:none;
-	background: url(./image/2016-11-22_210533.png) no-repeat 188px 6px;
+.navaddress ul a{
+	float: left;
+	padding-left: 12px;
+	font-size: 14px;
+	color: black;
+	line-height: 30px;
 }
-.topNav input:focus{
-	border-color:rgb(188, 188, 188);
+.navaddress ul a:hover{
+	color: rgb(255,85,23);
 }
-.topNav .sign{
-	float:left;
-	margin-right:15px;
-	font-size:12px;
-	line-height:36px;
+.navmid{float: left;margin-left: 20px;float: left;}
+.navmid a{padding:0 17px;font-size: 14px;line-height: 80px;float: left;}
+.navmid a:hover{color: #ff5517;cursor: pointer;}
+.navmid a.fuwu{position: relative;}
+.navmid a.top-words4{
+	color: rgb(255,85,23);
 }
-.topNav .tel{
-	float:right;
-	width:154px;
-	height:20px;
-	margin-top: 10px;
-	background: cyan;
-	background: url(./image/phone-num.png) no-repeat 24px 0px;
-	border-left: 1px solid #CCC;
-}
-.topNav.normal{
-	position:absolute;
-}
-.topNav.fixed{
-	position:fixed;
-	z-index:2;
-}
+.fuwu-hover{position: absolute;left: 0px;top:10px;width: 82px;height: 104px;
+	border: 2px solid #ff5517;box-shadow: 1px 1px 5px 1px grey;background: white;
+	text-align: center;padding-top:12px;display: none;z-index: 5}
+.fuwu-hover span{font-size: 14px;line-height: 0px;line-height: 34px;display: block;
+	color: grey}
+.navmid a:hover .fuwu-hover{display: block;}
+.fuwu-hover span:hover{color: #ff5517;}
+.nav input{width: 210px;height: 28px;border: 2px solid #CCC;padding-left: 6px;outline: none;
+	background: url(./image/2016-11-22_210533.png) no-repeat 192px 8px;float: left;margin-top: 22px;
+	margin-left: 15px;line-height: 28px;color: rgb(111,111,111);}
+.denglu{margin-left: 64px;float: left;border-right:1px solid grey;height: 18px;margin-top: 32px;}
+.denglu a{float: left;font-size: 12px;margin-right: 20px;}
+.denglu a:hover{color: #ff5517;cursor: pointer;}
+.nav-right{width: 150px;height: 26px;float: left;background: url(./image/phone-num.png) 
+	no-repeat 22px ;margin-top: 26px}
 /*底部导航*/
 .bottomNav{
 	height:400px;
