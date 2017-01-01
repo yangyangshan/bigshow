@@ -50,6 +50,7 @@ var renderCars = function(){
 	};
 }();
 renderCars(carData);
+
 var filterSetting = [
 	{
 		title : "里程",

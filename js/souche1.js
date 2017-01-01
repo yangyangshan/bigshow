@@ -28,16 +28,16 @@ Array.prototype.filter = function(callback){
 };
 var data=[
 	{
-		href:"https://www.baidu.com",
+		href:"#",
 		url: "./image/banner1.jpg"
 
 	},
 	{
-		href : "https://nuomi.baidu.com",
+		href : "#",
 		url: "./image/banner2.jpg"
 	},
 	{
-		href : "https://tieba.baidu.com",
+		href : "#",
 		url: "./image/banner3.jpg"
 	}
 ]
@@ -858,3 +858,13 @@ document.getElementById("header").appendChild(endFragment);
 }
 
 header();
+
+var btnsignin=document.getElementById("btnup"),
+	shadowup=document.getElementById("shadowup"),
+	trysignup=document.getElementById("trysignup");
+	btnsignin.onclick=function(){
+		shadowup.style.display=trysignup.style.display="block";
+	}
+	shadowup.onclick=function(){
+		this.style.display=trysignup.style.display="none";
+	}
