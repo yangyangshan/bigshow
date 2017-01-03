@@ -24,34 +24,36 @@ app
 			captcha:code
 		})
 	})
-	// .get("/signUp",function(req,res){
-	// 	var query=req.query;
-	// 	// console.log(req);
-	// 	if(User[query.user] && User[query.user].code===query.code){
-	// 		User[query.user].password=query.password;
-	// 		res.json({
-	// 			user:query.user,
-	// 			password:query.password
-	// 		});
-	// 	}else{	
-	// 		res.json({
-	// 			code:1,
-	// 			message:"注册失败了哦"
-	// 		});
-	// 	}
+	.get("/signUp",function(req,res){
+		var query=req.query;
+		// console.log(req);
+		if(User[query.user] && User[query.user].code===query.code){
+			res.json({
+				user:query.user,
+				password:query.password,
+				code:query.code,
+				message:"注册成功"
+			});
+		}else{	
+			res.json({
+				code:1,
+				message:"注册失败，查看验证码或用户名"
+			});
+		}
 		
-	// })
-	// .get("/getUsers",function(req,res){
-	// 	res.json(User);
-	// })
-	//json自带方法，向浏览器传对象。
-	.get("/signIn",function(req,res){
-		var query=req.query,
-			isSuccess=+!(User[query.user]===query.code);
-		res.json({
-			code:isSuccess,
-			data:query.user,
-			message:["登陆成功","登录失败"][isSuccess]
-		});
 	})
+	.get("/getUsers",function(req,res){
+		res.json(User);
+	})
+	//json自带方法，向浏览器传对象。
+	// .get("/signIn",function(req,res){
+	// 	var query=req.query,
+	// 		code=getCode(6),
+	// 		isSuccess=+!(code===query.code);
+	// 	res.json({
+	// 		code:isSuccess,
+	// 		data:query.user,
+	// 		message:["登陆成功","登录失败"][isSuccess]
+	// 	});
+	// })
 	.listen(666);

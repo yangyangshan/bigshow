@@ -867,30 +867,50 @@ shadowup.onclick=function(){
 		this.style.display=trysignup.style.display="none";
 	}
 btnCode.onclick=function(){
+	var iptTelVal = userSignUp.value;
+				if(/^1[3578]\d{9}$/.test(iptTelVal)){
 			ajax({
 				url:"/getCode",
 				data:{
 					user:userSignUp.value
 				},
 				success:function(data){
-					codensole.log(data.captcha);
+					console.log(data.captcha);
 				}
 			})
+			}else{
+				console.log("号码输入有误");
+			}
 		}
 signIn.onclick=function(){
-		var captcha=code.value;
-				ajax({
-					url:"/signIn",
-					data:{
-						user:userSignIn.value,
-						code:captcha,	
+			ajax({
+		 			url:"/signUp",
+		 			data:{
+		 				user:userSignUp.value,
+		 				code:code.value,	
 					},
 					success:function(data){
-						console.log(data.message);
-						data.code||(document.title="你好."+data.data);
+						console.log(data);
 					}
-				});
-			}
+		 		});
+		
+		
+		// var captcha=code.value;
+		// 		ajax({
+		// 			url:"/signIn",
+		// 			data:{
+		// 				user:userSignUp.value,
+		// 				code:captcha,	
+		// 			},
+		// 			success:function(data){
+		// 				console.log(data.message);
+		// 				data.code||(document.title="你好."+data.data);
+		// 			}
+		// 		});
+	}
+
+
+
 		function ajax(option){
 				var xhr = new XMLHttpRequest,
 					type = option.type || "get",
